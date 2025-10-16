@@ -19,4 +19,4 @@ dataset
 |   |    target.nii.gz
 │   ...
 ```
-[developing Human Connectome Project (dHCP)] (https://www.developingconnectome.org/) dataset was used for the WPSS training and evaluation. 
+[developing Human Connectome Project (dHCP)](https://www.developingconnectome.org/) dataset was used for the WPSS training and evaluation. 
