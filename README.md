@@ -34,7 +34,7 @@ Training script is at  **./train**
 Use the following command to run the training script:
 
 
-## Inference:
+### Inference:
 
 Inference script is at  **./predict**. The corresponding BG and BGPVS segmentation results will be saved under the same directory as the inference dataset. 
 
