@@ -20,3 +20,23 @@ dataset
 │   ...
 ```
 [developing Human Connectome Project (dHCP)](https://www.developingconnectome.org/) dataset was used for the training and evaluation. 
+
+## Requirements
+
+python 3 is required and `python 3.6.4` was used in the study.  
+
+Please use ```pip install requirements.txt``` to install the requirements.  
+
+## How to run the code
+### Training:
+Training script is at  **./train**
+
+Use the following command to run the training script:
+
+
+## Inference:
+
+Inference script is at  **./predict**. The corresponding BG and BGPVS segmentation results will be saved under the same directory as the inference dataset. 
+
+Use the following command to run the inference script:
+
