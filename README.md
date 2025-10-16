@@ -6,15 +6,15 @@ Both *training* and *inference* datasets should be organized as the following st
 dataset
 │
 └───subject 1
-|   |    epc.nii.gz
+|   |    T2.nii.gz
 |   |    mask.nii.gz(optional)
 |   |    target.nii.gz(not required for the inference dataset)
 └───subject 2
-|   |    epc.nii.gz
+|   |    T2.nii.gz
 |   |    mask.nii.gz
 |   |    target.nii.gz
 └───subject 3
-|   |    epc.nii.gz
+|   |    T2.nii.gz
 |   |    mask.nii.gz
 |   |    target.nii.gz
 │   ...
