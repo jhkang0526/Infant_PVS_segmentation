@@ -37,11 +37,11 @@ Please use ```pip install requirements.txt``` to install the requirements.
 ### Training:
 - Input: 3D T2-weigthed MR image
 - Output: refinement BG and BGPVS Mask
-- [Pseudo labeling (jupyter notebook)](training.ipynb)
+- [Training (jupyter notebook)](training.ipynb)
 
 
 ### Inference:
 - Input: 3D T2-weigthed MR image
 - Output: refinement BG and BGPVS Mask
-- [Pseudo labeling (jupyter notebook)](inference.ipynb)
+- [Inference (jupyter notebook)](inference.ipynb)
 
