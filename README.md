@@ -31,7 +31,7 @@ Please use ```pip install requirements.txt``` to install the requirements.
 ### Pseudo labeling
 - Input: 3D T2-weigthed MR image & Tissue segmentation from [infant freesurfer](https://surfer.nmr.mgh.harvard.edu/fswiki/infantFS) or [dHCP pipeline](https://github.com/BioMedIA/dhcp-structural-pipeline)
 - Output: refinement BG and BGPVS Mask
-- [Pseudo labeling (jupyter notebook)](psuedo_labeling.ipynb)
+- [Pseudo labeling (jupyter notebook)](pseudo_labeling.ipynb)
 ### Training:
 Training script is at  **./train**
 
