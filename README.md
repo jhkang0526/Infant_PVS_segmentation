@@ -16,7 +16,7 @@ dataset
 └───subject 3
 |   |    T2.nii.gz
 |   |    mask.nii.gz
-|   |    target.nii.gz
+|   |    target.nii.gzhttps://github.com/jhkang0526/Infant_PVS_segmentation/blob/main/README.md
 │   ...
 ```
 [developing Human Connectome Project (dHCP)](https://www.developingconnectome.org/) dataset was used for the training and evaluation. 
@@ -28,6 +28,10 @@ python 3 is required and `python 3.6.4` was used in the study.
 Please use ```pip install requirements.txt``` to install the requirements.  
 
 ## How to run the code
+### Pseudo labeling
+- Input: 3D T2-weigthed MR image & Tissue segmentation from [infant freesurfer](https://surfer.nmr.mgh.harvard.edu/fswiki/infantFS) or [dHCP pipeline](https://github.com/BioMedIA/dhcp-structural-pipeline)
+- Output: refinement BG and BGPVS Mask
+- [Pseudo labeling (jupyter notebook)](psuedo_labeling.ipynb)
 ### Training:
 Training script is at  **./train**
 
