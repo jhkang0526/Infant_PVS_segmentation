@@ -32,15 +32,16 @@ Please use ```pip install requirements.txt``` to install the requirements.
 - Input: 3D T2-weigthed MR image & Tissue segmentation from [infant freesurfer](https://surfer.nmr.mgh.harvard.edu/fswiki/infantFS) or [dHCP pipeline](https://github.com/BioMedIA/dhcp-structural-pipeline)
 - Output: refinement BG and BGPVS Mask
 - [Pseudo labeling (jupyter notebook)](pseudo_labeling.ipynb)
-### Training:
-Training script is at  **./train**
 
-Use the following command to run the training script:
+  
+### Training:
+- Input: 3D T2-weigthed MR image
+- Output: refinement BG and BGPVS Mask
+- [Pseudo labeling (jupyter notebook)](training.ipynb)
 
 
 ### Inference:
-
-Inference script is at  **./predict**. The corresponding BG and BGPVS segmentation results will be saved under the same directory as the inference dataset. 
-
-Use the following command to run the inference script:
+- Input: 3D T2-weigthed MR image
+- Output: refinement BG and BGPVS Mask
+- [Pseudo labeling (jupyter notebook)](inference.ipynb)
 
