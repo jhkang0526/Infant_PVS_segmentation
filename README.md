@@ -1,5 +1,7 @@
 # INFANT PVS SEGMENTATION
 
+##[Paper Under Revision]
+
 ## Data
 Both *training* and *inference* datasets should be organized as the following structure:
 ```
