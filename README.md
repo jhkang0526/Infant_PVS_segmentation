@@ -25,9 +25,10 @@ dataset
 
 ## Requirements
 
-python 3 is required and `python 3.6.4` was used in the study.  
-
-Please use ```pip install requirements.txt``` to install the requirements.  
+- Python 3.12.4
+- MONAI 1.3.2
+- Numpy 1.26.4
+- Pytorch 2.4.1
 
 ## How to run the code
 ### Pseudo labeling
@@ -46,4 +47,12 @@ Please use ```pip install requirements.txt``` to install the requirements.
 - Input: 3D T2-weigthed MR image
 - Output: refinement BG and BGPVS Mask
 - [Inference (jupyter notebook)](inference.ipynb)
+
+## Attribution
+
+- MONAI: An open-source framework for deep learning in healthcare. [arXiv:2211.02701]. 
+
+This repository uses a loss function re-implemented from:
+- Author(s). (2021). *Paper title*. Medical Image Analysis, 102038.  
+  DOI: https://doi.org/10.1016/j.media.2021.102038
 
