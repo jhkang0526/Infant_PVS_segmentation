@@ -52,7 +52,7 @@ dataset
 
 - MONAI: An open-source framework for deep learning in healthcare. [arXiv:2211.02701]. 
 
-This repository uses a loss function re-implemented from:
-- Author(s). (2021). *Paper title*. Medical Image Analysis, 102038.  
+**This repository uses a loss function re-implemented from:**
+- Gros C et al. (2021). SoftSeg: Advantages of soft versus binary training for image segmentation. Medical Image Analysis, 102038.  
   DOI: https://doi.org/10.1016/j.media.2021.102038
 
